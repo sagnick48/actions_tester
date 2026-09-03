@@ -13,4 +13,5 @@ def proj_app():
     return {"message":f"fastapi test on /emp - {e}"}
 @app.get("/wmp")
 def proj_app2():
+    print("MINOR CHANGE")
     return {"message":f"fastapi test on /wmp - {e1}"}
